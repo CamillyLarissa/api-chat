@@ -1,0 +1,25 @@
+### HTTP Request
+
+### Testando o endpoint de chat - Calcula a raiz quadrada de 144
+POST http://127.0.0.1:8000/api/chat
+Content-Type: application/json
+
+{
+    "message": "Quanto é a raiz quadrada de 144?"
+}
+
+### Testando o endpoint de chat - Conversação simples
+POST http://127.0.0.1:8000/api/chat
+Content-Type: application/json
+
+{
+    "message": "Olá Mundo!"
+}
+
+### 422 Bad Request - Mensagem ausente
+POST http://127.0.0.1:8000/api/chat
+Content-Type: application/json
+
+{
+    "message": ""
+}
