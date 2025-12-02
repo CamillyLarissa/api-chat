@@ -75,3 +75,5 @@ app/
 │       ├── core.py      # Configuração do Agente Strands
 │       └── tools.py     # Tool de Calculadora
 └── tests/               # Testes de integração
+
+
