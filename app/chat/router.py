@@ -20,7 +20,7 @@ router = APIRouter()
                      }
                  },
                  422: {
-                     "description": "Erro de Validação (Pydantic)",
+                     "description": "Erro de Validação",
                      "content": {
                          "application/json": {
                              "example": {
@@ -36,7 +36,7 @@ router = APIRouter()
                      }
                  },
                  500: {
-                     "description": "Erro Interno (Capturado pelo Global Handler).",
+                     "description": "Erro Interno ",
                      "content": {
                          "application/problem+json": {
                              "example": {
