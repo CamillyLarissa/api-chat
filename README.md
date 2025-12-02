@@ -24,8 +24,8 @@ Este projeto implementa uma API RESTful utilizando FastAP* integrada a um Agente
 
 1.  Clone o repositório e entre na pasta:
     ```bash
-    git clone <seu-repo>
-    cd api-chat
+    git clone https://github.com/CamillyLarissa/api-chat.git
+    cd app
     ```
 
 2.  Crie e ative um ambiente virtual:
