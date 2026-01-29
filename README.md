@@ -1,4 +1,3 @@
-# Desafio Técnico - API de Chat com Agente de IA
 
 Este projeto implementa uma API RESTful utilizando FastAP* integrada a um Agente de IA (Strands SDK** + **Ollama) capaz de realizar conversas naturais e executar cálculos matemáticos precisos através de ferramentas personalizadas (Tools).
 
